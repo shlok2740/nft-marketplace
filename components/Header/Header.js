@@ -49,7 +49,7 @@ function Navbar() {
   const menus = [
     {
       name: 'Etherscan',
-      href: `https://rinkeby.etherscan.io/address/${.NEXT_PUBLIC_MARKETPLACE_CONTRACT_ADDRESS}`,
+      href: `https://rinkeby.etherscan.io/address/${process.env.NEXT_PUBLIC_MARKETPLACE_CONTRACT_ADDRESS}`,
     },
     {
       name: 'OpenSea',
